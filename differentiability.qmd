@@ -28,8 +28,26 @@ The answer, as we shall see, is not purely mathematical—it is physical, histor
 
 To understand why the "smoothness intuition" became so deeply entrenched, we must go back not to the invention of calculus itself, but to the century that preceded it. The scientific revolution of the 17th century, spearheaded by figures like Galileo Galilei and Johannes Kepler, fundamentally transformed how humanity understood motion. 
 
+::: {#fig-pioneers fig-align="center"}
+
+
+
+![Galileo Galilei (1564–1642)](picture1.jpg){fig-align="center" width="30%"}
+The pioneers.
+:::
+
 * **Galileo's experiments** with rolling balls down inclined planes revealed that the distance traveled was proportional to the square of time—a beautifully smooth quadratic relationship. 
+
+::: {#fig-pioneers fig-align="center"}
+
+
+
+![Johannes Kepler (1571–1630)](picture2.jpg){fig-align="center" width="30%"}
+The pioneers.
+:::
+
 * **Kepler's laws of planetary motion**, derived from Tycho Brahe's meticulous astronomical observations, described the orbits of planets as smooth ellipses, with no jumps, no corners, and no discontinuities.
+
 
 This was the intellectual atmosphere into which Isaac Newton was born. When Newton turned his attention to the problem of motion, he inherited a worldview in which the universe was governed by smooth, continuous laws. His own monumental work, the *Philosophiæ Naturalis Principia Mathematica* (1687), codified this vision. Newton's law of universal gravitation:
 
@@ -45,11 +63,27 @@ When Newton invented the derivative—which he called the **"fluxion,"** literal
 
 Across the English Channel, Gottfried Wilhelm Leibniz approached calculus from a different angle—but arrived at the same conclusion. Leibniz was a geometer at heart. His derivative was conceived not as a physical velocity but as the slope of a tangent line to a curve. To compute this slope, Leibniz introduced the idea of infinitesimals—infinitely small quantities denoted $dx$ and $dy$. The derivative $\frac{dy}{dx}$ was simply the ratio of these two infinitesimal changes.
 
+::: {#fig-leibniz-panel}
+
+![Gottfried Wilhelm Leibniz (1646–1716)](picture3.jpg){fig-align="center" width="30%"}
+
+
+:::
+
 Leibniz imagined that any curve, when examined under an infinitely powerful microscope, would reveal itself to be composed of infinitely many infinitesimal straight segments. The tangent line at a point was simply the straight line that coincided with the curve over an infinitesimal interval. 
 
 > **The "Zoom In" Assumption:** If you look closely enough, every continuous curve becomes indistinguishable from a straight line. 
 
 This assumption was not a theorem—it was an article of faith, a foundational postulate that made calculus work. And because it worked so brilliantly in practice, no one saw any reason to question it.
+
+::: {#fig-leibniz-panel}
+
+
+
+![Leibniz's calculus manuscript showing the $\int$ and $d$ notations](Picture4.png){fig-align="center" width="80%"}
+
+Leibniz and his revolutionary calculus notations.
+:::
 
 One of Leibniz's most significant contributions to mathematics was his notation. The symbol $\frac{dy}{dx}$ is not merely a convenience—it is a **cognitive trap**. Its very form implies that the ratio always exists, that the quotient of two infinitesimals is a well-defined number at every point. Generations of students would internalize this notation without ever questioning the hidden assumption buried within it: that the denominator $dx$ can always be divided into the numerator $dy$, and that the slope is always finite and well-defined. The notation itself became a silent accomplice in the maintenance of the smoothness illusion.
 

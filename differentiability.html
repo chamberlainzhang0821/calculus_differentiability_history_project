@@ -125,8 +125,30 @@ window.Quarto = {
 <section id="the-physical-roots-of-smoothness" class="level2">
 <h2 class="anchored" data-anchor-id="the-physical-roots-of-smoothness">2. The Physical Roots of Smoothness</h2>
 <p>To understand why the “smoothness intuition” became so deeply entrenched, we must go back not to the invention of calculus itself, but to the century that preceded it. The scientific revolution of the 17th century, spearheaded by figures like Galileo Galilei and Johannes Kepler, fundamentally transformed how humanity understood motion.</p>
+<div id="fig-pioneers" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pioneers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="picture1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-pioneers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
 <ul>
 <li><strong>Galileo’s experiments</strong> with rolling balls down inclined planes revealed that the distance traveled was proportional to the square of time—a beautifully smooth quadratic relationship.</li>
+</ul>
+<div id="fig-pioneers" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pioneers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="picture2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-pioneers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2
+</figcaption>
+</figure>
+</div>
+<ul>
 <li><strong>Kepler’s laws of planetary motion</strong>, derived from Tycho Brahe’s meticulous astronomical observations, described the orbits of planets as smooth ellipses, with no jumps, no corners, and no discontinuities.</li>
 </ul>
 <p>This was the intellectual atmosphere into which Isaac Newton was born. When Newton turned his attention to the problem of motion, he inherited a worldview in which the universe was governed by smooth, continuous laws. His own monumental work, the <em>Philosophiæ Naturalis Principia Mathematica</em> (1687), codified this vision. Newton’s law of universal gravitation:</p>
@@ -137,11 +159,41 @@ window.Quarto = {
 <section id="leibniz-and-the-geometry-of-infinitesimals" class="level2">
 <h2 class="anchored" data-anchor-id="leibniz-and-the-geometry-of-infinitesimals">3. Leibniz and the Geometry of Infinitesimals</h2>
 <p>Across the English Channel, Gottfried Wilhelm Leibniz approached calculus from a different angle—but arrived at the same conclusion. Leibniz was a geometer at heart. His derivative was conceived not as a physical velocity but as the slope of a tangent line to a curve. To compute this slope, Leibniz introduced the idea of infinitesimals—infinitely small quantities denoted <span class="math inline">\(dx\)</span> and <span class="math inline">\(dy\)</span>. The derivative <span class="math inline">\(\frac{dy}{dx}\)</span> was simply the ratio of these two infinitesimal changes.</p>
+<div id="fig-leibniz-panel" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-leibniz-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="picture3.jpg" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Gottfried Wilhelm Leibniz (1646–1716)</figcaption>
+</figure>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-leibniz-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3
+</figcaption>
+</figure>
+</div>
 <p>Leibniz imagined that any curve, when examined under an infinitely powerful microscope, would reveal itself to be composed of infinitely many infinitesimal straight segments. The tangent line at a point was simply the straight line that coincided with the curve over an infinitesimal interval.</p>
 <blockquote class="blockquote">
 <p><strong>The “Zoom In” Assumption:</strong> If you look closely enough, every continuous curve becomes indistinguishable from a straight line.</p>
 </blockquote>
 <p>This assumption was not a theorem—it was an article of faith, a foundational postulate that made calculus work. And because it worked so brilliantly in practice, no one saw any reason to question it.</p>
+<div id="fig-leibniz-panel" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-leibniz-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Picture4.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Leibniz’s calculus manuscript showing the <span class="math inline">\(\int\)</span> and <span class="math inline">\(d\)</span> notations</figcaption>
+</figure>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-leibniz-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Leibniz and his revolutionary calculus notations.
+</figcaption>
+</figure>
+</div>
 <p>One of Leibniz’s most significant contributions to mathematics was his notation. The symbol <span class="math inline">\(\frac{dy}{dx}\)</span> is not merely a convenience—it is a <strong>cognitive trap</strong>. Its very form implies that the ratio always exists, that the quotient of two infinitesimals is a well-defined number at every point. Generations of students would internalize this notation without ever questioning the hidden assumption buried within it: that the denominator <span class="math inline">\(dx\)</span> can always be divided into the numerator <span class="math inline">\(dy\)</span>, and that the slope is always finite and well-defined. The notation itself became a silent accomplice in the maintenance of the smoothness illusion.</p>
 </section>
 <section id="the-18th-century-when-faith-became-dogma" class="level2">
