@@ -1,13 +1,12 @@
 
 
 # The Illusion of Smoothness: A History of Differentiability
-T
-his is an elegant single-page technical history website built using Quarto and deployed via GitHub Pages. The article explores the historical intuition-shattering conflict between "Differentiability" and "Continuity," focusing on how the world moved from the physical intuitions of Newton and Leibniz to Karl Weierstrass's shocking discovery of a function that is "continuous everywhere, but differentiable nowhere."
+This is an elegant single-page technical history website built using Quarto and deployed via GitHub Pages. The article explores the historical intuition-shattering conflict between "Differentiability" and "Continuity," focusing on how the world moved from the physical intuitions of Newton and Leibniz to Karl Weierstrass's shocking discovery of a function that is "continuous everywhere, but differentiable nowhere."
 
 ## 🚀 Project Highlights
 
 <div align="center">
-  <img src="Picture4.png" width="90%" alt="Leibniz's calculus manuscript showing early differential notation">
+  <img src="Picture4.png" width="50%" alt="Leibniz's calculus manuscript showing early differential notation">
   <br>
   <p><em>Leibniz's original calculus manuscript, beautifully centered and scaled.</em></p>
 </div>
@@ -15,7 +14,7 @@ his is an elegant single-page technical history website built using Quarto and d
 Where History Meets Mathematics: A vivid retelling of the intellectual clashes among calculus masters from the 17th to the 19th centuries.
 
 - **Modern Quarto Architecture:** Features built-in automatic cross-referencing, flawless LaTeX formula rendering, and a responsive floating Table of Contents (TOC).
-- **Gallery-Grade Layouts:** Includes rare portraits and historical manuscripts of Galileo, Kepler, and Leibniz, organized beautifully using symmetrical dual-column layouts (layout-ncol=2).
+- **Gallery-Grade Layouts:** Includes rare portraits and historical manuscripts of Galileo, Kepler, and Leibniz, organized beautifully.
 - **One-Click Automated Deployment:** Seamlessly hosted on GitHub Pages via quarto publish gh-pages.
 
 ## 🛠️ Local Development & Preview Guide
