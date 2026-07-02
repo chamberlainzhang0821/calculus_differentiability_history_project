@@ -6,7 +6,7 @@ his is an elegant single-page technical history website built using Quarto and d
 
 ## 🚀 Project Highlights
 
-![Leibniz's calculus manuscript](picture4.png)
+![Leibniz's calculus manuscript](Picture4.png)
 Where History Meets Mathematics: A vivid retelling of the intellectual clashes among calculus masters from the 17th to the 19th centuries.
 
 - **Modern Quarto Architecture:** Features built-in automatic cross-referencing, flawless LaTeX formula rendering, and a responsive floating Table of Contents (TOC).
