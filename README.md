@@ -1,6 +1,9 @@
 
 
 # The Illusion of Smoothness: A History of Differentiability
+
+LINK to the story:https://chamberlainzhang0821.github.io/calculus_differentiability_history_project/
+
 This is an elegant single-page technical history website built using Quarto and deployed via GitHub Pages. The article explores the historical intuition-shattering conflict between "Differentiability" and "Continuity," focusing on how the world moved from the physical intuitions of Newton and Leibniz to Karl Weierstrass's shocking discovery of a function that is "continuous everywhere, but differentiable nowhere."
 
 ## 🚀 Project Highlights
@@ -22,8 +25,8 @@ Where History Meets Mathematics: A vivid retelling of the intellectual clashes a
 If you want to modify, run, or preview this project locally on your Mac, please make sure your environment is properly configured.
 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/chamberlainzhang0821/calculus_differentiability_history_project.git
+cd calculus_differentiability_history_project
 ```
 2. Install Underlying Dependencies (macOS)
 Ensure you have the Quarto CLI installed, along with Jupyter and PyYAML in your Python environment (bypassing the macOS PEP 668 environment protection):
