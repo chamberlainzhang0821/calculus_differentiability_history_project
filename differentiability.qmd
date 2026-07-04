@@ -1,11 +1,19 @@
 ---
 title: "The Illusion of Smoothness: A History of Differentiability"
-format: 
+author: "Boting Zhang & Ziran Zhou & Ling Yan Jeng"
+date: "2026-07-04"
+format:
   html:
+    theme: 
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss]
     toc: true
-    toc-depth: 3
-    theme: cosmo
+    toc-location: left
+    toc-title: "Chapters"
+    number-sections: false
     code-fold: true
+    code-summary: "Show Python Code"
+    link-external-newwindow: true
 ---
 
 ## 1. Introduction: The Seduction of Smoothness

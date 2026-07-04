@@ -1,0 +1,32 @@
+/*-- scss:rules --*/
+
+/* 1. Modify the article title with an elegant, literary serif font */
+.quarto-title-block .title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* 2. Style the body text to look like a high-end digital magazine */
+body {
+  font-family: 'Charter', 'Merriweather', Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: #2c3e50;
+}
+
+/* 3. Rebuild the Blockquote to make it pop like a curated pull-quote */
+blockquote {
+  border-left: 4px solid #0e33ea !important;
+  background-color: rgba(14, 51, 234, 0.04);
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  font-style: italic;
+  border-radius: 0 8px 8px 0;
+}
+
+/* 4. Beautiful styling for Blockquotes under Dark Mode */
+body.quarto-dark blockquote {
+  background-color: rgba(14, 51, 234, 0.15);
+  color: #e0e0e0;
+}
