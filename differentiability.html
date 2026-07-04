@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -83,9 +118,12 @@ window.Quarto = {
   <li><a href="#leibniz-and-the-geometry-of-infinitesimals" id="toc-leibniz-and-the-geometry-of-infinitesimals" class="nav-link" data-scroll-target="#leibniz-and-the-geometry-of-infinitesimals">3. Leibniz and the Geometry of Infinitesimals</a></li>
   <li><a href="#the-18th-century-when-faith-became-dogma" id="toc-the-18th-century-when-faith-became-dogma" class="nav-link" data-scroll-target="#the-18th-century-when-faith-became-dogma">4. The 18th Century: When Faith Became Dogma</a></li>
   <li><a href="#why-no-one-questioned-it" id="toc-why-no-one-questioned-it" class="nav-link" data-scroll-target="#why-no-one-questioned-it">5. Why No One Questioned It</a></li>
-  <li><a href="#the-calm-before-the-storm" id="toc-the-calm-before-the-storm" class="nav-link" data-scroll-target="#the-calm-before-the-storm">6. The Calm Before the Storm</a>
+  <li><a href="#the-calm-before-the-storm" id="toc-the-calm-before-the-storm" class="nav-link" data-scroll-target="#the-calm-before-the-storm">6. The Calm Before the Storm</a></li>
+  <li><a href="#the-anatomy-of-a-mathematical-nightmare-the-conceptual-structural-blend" id="toc-the-anatomy-of-a-mathematical-nightmare-the-conceptual-structural-blend" class="nav-link" data-scroll-target="#the-anatomy-of-a-mathematical-nightmare-the-conceptual-structural-blend">7. The Anatomy of a Mathematical Nightmare (The Conceptual &amp; Structural Blend)</a>
   <ul class="collapse">
-  <li><a href="#what-happens-next" id="toc-what-happens-next" class="nav-link" data-scroll-target="#what-happens-next">What Happens Next?</a></li>
+  <li><a href="#the-great-deception-of-smoothness" id="toc-the-great-deception-of-smoothness" class="nav-link" data-scroll-target="#the-great-deception-of-smoothness">The Great Deception of Smoothness</a></li>
+  <li><a href="#weierstrasss-microscopic-meat-grinder" id="toc-weierstrasss-microscopic-meat-grinder" class="nav-link" data-scroll-target="#weierstrasss-microscopic-meat-grinder">Weierstrass’s Microscopic Meat Grinder</a></li>
+  <li><a href="#the-physics-of-impossible-motion" id="toc-the-physics-of-impossible-motion" class="nav-link" data-scroll-target="#the-physics-of-impossible-motion">The Physics of Impossible Motion</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -220,12 +258,100 @@ Figure&nbsp;4: Leibniz and his revolutionary calculus notations.
 <p>The French mathematician André-Marie Ampère, famous today for his work in electromagnetism, would soon attempt to provide a rigorous proof of this “obvious” fact—a proof that would turn out to be flawed, but whose very existence testifies to how deeply entrenched the belief had become.</p>
 <p>And then, in 1872, a quiet German mathematician named <strong>Karl Weierstrass</strong> walked into the Berlin Academy and detonated a bomb that would reverberate through the halls of mathematics for generations. He had constructed a function that was continuous everywhere but differentiable nowhere. The smooth universe was a lie. The monsters were real.</p>
 <p>And that, as they say, is where our story truly begins.</p>
-<section id="what-happens-next" class="level3">
-<h3 class="anchored" data-anchor-id="what-happens-next">What Happens Next?</h3>
-<blockquote class="blockquote">
+</section>
+<section id="the-anatomy-of-a-mathematical-nightmare-the-conceptual-structural-blend" class="level2">
+<h2 class="anchored" data-anchor-id="the-anatomy-of-a-mathematical-nightmare-the-conceptual-structural-blend">7. The Anatomy of a Mathematical Nightmare (The Conceptual &amp; Structural Blend)</h2>
 <p>The function that Weierstrass presented that day was not just a mathematical curiosity—it was a declaration of war against two centuries of complacency. It shattered the intuition that Newton and Leibniz had built, the intuition that Euler had taken for granted, the intuition that every calculus student since has been taught.</p>
-<p>How did such a monster come to be? What did it look like? And why did the greatest mathematicians of the era recoil from it in horror? For the answers to these questions, we turn to the most terrifying show in the history of calculus…</p>
+<p>How did such a monster come to be? What did it look like? And why did the greatest mathematicians of the era recoil from it in horror? For the answers to these questions, we turn to the most terrifying show in the history of calculus.</p>
+<section id="the-great-deception-of-smoothness" class="level3">
+<h3 class="anchored" data-anchor-id="the-great-deception-of-smoothness">The Great Deception of Smoothness</h3>
+<p>For centuries, the titans of mathematics—Newton, Leibniz, Euler, and Gauss—shared a foundational, almost religious assumption: <strong>nature is smooth.</strong> This belief was codified in the geometric principle of <em>local linearity</em>.</p>
+<p>The core promise of calculus was that if you zoom in closely enough on any continuous curve, the curvature will eventually evaporate. Under a powerful enough mathematical microscope, the most chaotic bend flattens out into a predictable, straight line. This line is the tangent, and its slope is the derivative. To be continuous meant you were predictable at a microscopic scale. Calculus was the ultimate tool for turning the chaotic, curved universe into a collection of neat, linear steps.</p>
+<div id="fig-weierstrass-panel" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-weierstrass-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Picture5.jpg" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Karl Weierstrass (1815–1897)</figcaption>
+</figure>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-weierstrass-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="weierstrasss-microscopic-meat-grinder" class="level3">
+<h3 class="anchored" data-anchor-id="weierstrasss-microscopic-meat-grinder">Weierstrass’s Microscopic Meat Grinder</h3>
+<p>In 1872, Karl Weierstrass did not just break this promise; he vaporized it. He constructed a completely unbroken function; you can trace it from negative infinity to positive infinity without ever lifting your pen, yet it is entirely devoid of derivatives.</p>
+<p>To understand the horror of the Weierstrass function, you have to imagine looking at it through a microscope:</p>
+<blockquote class="blockquote">
+<p>Suppose you choose a single point and begin to zoom in, expecting the curve to flatten out into a friendly tangent line. Instead, the single line splits into a jagged mountain peak. You zoom in further, thinking you can flatten out the tip of that peak. Instead, the tip erupts into an entire mountain range of even smaller, sharper spikes.</p>
 </blockquote>
+<p>No matter how deep you go, even if you zoom in by a factor of a trillion, the curve never straightens. It is made entirely of microscopic, non-stop sharp corners. Because it never flattens out, you can never establish a stable “direction” at any single point. There is not a single millimeter of smooth ground to lay down a tangent line. Weierstrass had engineered a geometric monster: <strong>an infinitely jagged, self-similar fractal coastline that defies the very concept of scale.</strong></p>
+<div id="cell-fig-weierstrass-horror" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Define the Weierstrass Function ---</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># f(x) = sum(n=0 to N) [a^n * cos(b^n * pi * x)]</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> weierstrass(x, a, b, N<span class="op">=</span><span class="dv">50</span>):</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    f_x <span class="op">=</span> np.zeros_like(x)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(N):</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        term <span class="op">=</span> (a<span class="op">**</span>n) <span class="op">*</span> np.cos((b<span class="op">**</span>n) <span class="op">*</span> np.pi <span class="op">*</span> x)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        f_x <span class="op">+=</span> term</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> f_x</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Parameters ---</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="fl">0.5</span>   <span class="co"># Decay rate of amplitude (0 &lt; a &lt; 1)</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> <span class="fl">3.0</span>   <span class="co"># Scale rate of frequency (b is an integer &gt; 1/a)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">10000</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>f_x <span class="op">=</span> weierstrass(x, a, b)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Define Zoom Views ---</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>zoom_ranges <span class="op">=</span> [(<span class="op">-</span><span class="fl">1.0</span>, <span class="fl">1.0</span>), (<span class="op">-</span><span class="fl">0.1</span>, <span class="fl">0.1</span>), (<span class="op">-</span><span class="fl">0.01</span>, <span class="fl">0.01</span>), (<span class="op">-</span><span class="fl">0.001</span>, <span class="fl">0.001</span>)]</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Set up the Figure layout ---</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">10</span>), constrained_layout<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">'The Weierstrass Monster: Smooth everywhere, differentiable nowhere.'</span>, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Plot Global and Zoomed Views ---</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, (ax, current_range) <span class="kw">in</span> <span class="bu">enumerate</span>(<span class="bu">zip</span>(axs.flat, zoom_ranges)):</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    x_current <span class="op">=</span> np.linspace(current_range[<span class="dv">0</span>], current_range[<span class="dv">1</span>], <span class="dv">10000</span>)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    f_current <span class="op">=</span> weierstrass(x_current, a, b)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    ax.plot(x_current, f_current, color<span class="op">=</span><span class="st">'#0e33ea'</span>, lw<span class="op">=</span><span class="dv">1</span>) <span class="co"># A light gray/silver color for a 'metallic nightmare' look</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    ax.set_title(<span class="ss">f"Global View [-1, 1]"</span> <span class="cf">if</span> idx<span class="op">==</span><span class="dv">0</span> <span class="cf">else</span> <span class="ss">f"Zoom Factor </span><span class="sc">{</span><span class="dv">10</span><span class="op">**</span>idx<span class="sc">}</span><span class="ss">x"</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    ax.set_xlim(current_range)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Automatic y-limit adjust based on data</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    ax.set_ylim([f_current.<span class="bu">min</span>(), f_current.<span class="bu">max</span>()])</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    ax.grid(<span class="va">True</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, color<span class="op">=</span><span class="st">'gray'</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig-weierstrass-horror" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-weierstrass-horror-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="differentiability_files/figure-html/fig-weierstrass-horror-output-1.png" class="quarto-figure quarto-figure-center figure-img" width="1163" height="971">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-weierstrass-horror-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: The Geometrical Nightmare: Witness the Weierstrass function defying the ‘local linearity’ promise. Notice how as we zoom in (top right to bottom right), the curve <em>never</em> becomes a straight line; instead, every peak erupts into a new mountain range of sharper peaks, <em>ad infinitum</em>.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="the-physics-of-impossible-motion" class="level3">
+<h3 class="anchored" data-anchor-id="the-physics-of-impossible-motion">The Physics of Impossible Motion</h3>
+<p>The geometric impossibility of the Weierstrass function translates into an even more terrifying physical paradox. In classical physics, a derivative isn’t just a slope; it is <strong>instantaneous velocity</strong>. If you plot an object’s position over time, the derivative tells you how fast it is moving at an exact, frozen split-second.</p>
+<p>If a particle were to travel along a path dictated by the Weierstrass function, its journey would be continuous, meaning it exists at every moment in time, traveling from <code>Point A</code> to <code>Point B</code> without teleporting. However, because the function is differentiable nowhere, <strong>the particle has no measurable speed or direction at any point in its journey.</strong> To have a defined velocity, your change in position over an infinitely small interval of time must stabilize into a single, predictable number. But on this curve, the particle is experiencing infinite, violent agitation at every microscopic tick of the clock. It is jerking left, right, up, and down infinitely fast, all at the exact same time. If you looked at the particle’s speedometer, the needle wouldn’t just bounce—it would cease to exist.</p>
+<p>Weierstrass created a universe where an object can be actively moving, yet its speed is mathematically undefinable. It is motion stripped of its predictability, a kinematic ghost story.</p>
 </section>
 </section>
 
