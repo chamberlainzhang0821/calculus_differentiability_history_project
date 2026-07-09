@@ -16,6 +16,14 @@ format:
     link-external-newwindow: true
 ---
 
+::: {#fig-pioneers fig-align="center"}
+
+
+
+![Group Photo: ](Group_photo.png){fig-align="center" width="50%"}
+from left to right: Boting Zhang, Ziran Zhou, Ling Yan Jeng
+:::
+
 ## 1. Introduction: The Seduction of Smoothness
 
 Walk into any high school calculus classroom around the world, and you will hear a phrase repeated like a sacred mantra: 
